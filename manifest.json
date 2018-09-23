@@ -1,0 +1,12 @@
+{
+  "name": "Kun Kbh",
+  "version": "1.0",
+  "description": "Removes all arrivals and departures from https://www.trafikverket.se/trafikinformation/ except trains to/from Hovedbanegården.",
+  "manifest_version": 2,
+  "content_scripts": [
+   {
+     "matches": ["https://www.trafikverket.se/trafikinformation/*"],
+     "js": ["contentScript.js"]
+   }
+ ]
+}
